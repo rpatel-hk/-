@@ -1,9 +1,12 @@
 ---
 work_package_id: WP03
 title: Database Layer
-lane: planned
+lane: "doing"
 dependencies:
 - WP01
+base_branch: 001-network-device-inventory-cli-WP01
+base_commit: eca7140efd847a0ddb947a2d2f5386076aef9fbd
+created_at: '2026-03-12T15:10:56.780162+00:00'
 subtasks:
 - T008
 - T009
@@ -11,7 +14,7 @@ subtasks:
 phase: Phase 0 - Foundation
 assignee: ''
 agent: ''
-shell_pid: ''
+shell_pid: "47833"
 review_status: ''
 reviewed_by: ''
 history:
