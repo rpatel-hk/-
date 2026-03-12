@@ -1,7 +1,7 @@
 ---
 work_package_id: WP01
 title: Project Setup & Configuration
-lane: "doing"
+lane: "for_review"
 dependencies: []
 base_branch: master
 base_commit: 9f285b789553b12b8968d6c778008cfb21489d3e
@@ -263,3 +263,4 @@ LOG_LEVEL=INFO
 
 - 2026-03-12T10:45:33Z – system – lane=planned – Prompt created.
 - 2026-03-12T14:40:00Z – claude-sonnet-4-6 – shell_pid=44718 – lane=doing – Assigned agent via workflow command
+- 2026-03-12T14:43:35Z – claude-sonnet-4-6 – shell_pid=44718 – lane=for_review – T001-T003 complete: directory structure, config.py with EnvironmentError validation, .env.example, requirements.txt, .gitignore all committed
