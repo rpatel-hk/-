@@ -19,9 +19,9 @@ Each work package is independently deliverable and testable.
 **Prompt**: `tasks/WP01-project-setup-and-configuration.md`
 
 ### Included Subtasks
-- [ ] T001 Create project directory structure and `requirements.txt`
-- [ ] T002 Implement `network_inventory/config.py` — Settings dataclass + env/dotenv loading + startup validation
-- [ ] T003 Create `network_inventory/.env.example` template with all required and optional env vars documented
+- [x] T001 Create project directory structure and `requirements.txt`
+- [x] T002 Implement `network_inventory/config.py` — Settings dataclass + env/dotenv loading + startup validation
+- [x] T003 Create `network_inventory/.env.example` template with all required and optional env vars documented
 
 ### Implementation Notes
 - Use `python-dotenv` to load `.env` at import time. Settings is a simple dataclass (not Pydantic) to keep dependencies lean.
