@@ -50,10 +50,10 @@ Each work package is independently deliverable and testable.
 **Prompt**: `tasks/WP02-foundation-utilities-and-models.md`
 
 ### Included Subtasks
-- [ ] T004 [P] Implement `network_inventory/models/device.py` — `Device` + `CollectionResult` dataclasses
-- [ ] T005 [P] Implement `network_inventory/utils/encryption.py` — Fernet key file load + in-memory decrypt helper
-- [ ] T006 [P] Implement `network_inventory/utils/logger.py` — `RotatingFileHandler` + stdout dual logging
-- [ ] T007 [P] Implement `network_inventory/utils/error_handler.py` — exception → `(status, error_message)` mapping
+- [x] T004 [P] Implement `network_inventory/models/device.py` — `Device` + `CollectionResult` dataclasses
+- [x] T005 [P] Implement `network_inventory/utils/encryption.py` — Fernet key file load + in-memory decrypt helper
+- [x] T006 [P] Implement `network_inventory/utils/logger.py` — `RotatingFileHandler` + stdout dual logging
+- [x] T007 [P] Implement `network_inventory/utils/error_handler.py` — exception → `(status, error_message)` mapping
 
 ### Implementation Notes
 - `Device` mirrors `devices` table fields; `password` field holds the encrypted `bytes` from the DB.
