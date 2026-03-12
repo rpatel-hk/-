@@ -14,7 +14,7 @@ subtasks:
 - T007
 phase: Phase 0 - Foundation
 assignee: ''
-agent: ''
+agent: "claude-sonnet-4-6"
 shell_pid: "46671"
 review_status: ''
 reviewed_by: ''
@@ -371,3 +371,4 @@ def classify_exception(exc: Exception) -> tuple[StatusType, str]:
 > **CRITICAL**: Append new entries at the END. Never prepend.
 
 - 2026-03-12T10:45:33Z – system – lane=planned – Prompt created.
+- 2026-03-12T15:00:54Z – claude-sonnet-4-6 – shell_pid=46671 – lane=doing – Assigned agent via workflow command
