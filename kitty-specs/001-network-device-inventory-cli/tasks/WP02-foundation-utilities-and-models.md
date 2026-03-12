@@ -1,9 +1,12 @@
 ---
 work_package_id: WP02
 title: Foundation Utilities & Models
-lane: planned
+lane: "doing"
 dependencies:
 - WP01
+base_branch: 001-network-device-inventory-cli-WP01
+base_commit: eca7140efd847a0ddb947a2d2f5386076aef9fbd
+created_at: '2026-03-12T15:00:53.868917+00:00'
 subtasks:
 - T004
 - T005
@@ -12,7 +15,7 @@ subtasks:
 phase: Phase 0 - Foundation
 assignee: ''
 agent: ''
-shell_pid: ''
+shell_pid: "46671"
 review_status: ''
 reviewed_by: ''
 history:
