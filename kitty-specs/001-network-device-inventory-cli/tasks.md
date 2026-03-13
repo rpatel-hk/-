@@ -147,8 +147,8 @@ Each work package is independently deliverable and testable.
 **Prompt**: `tasks/WP05-cisco-collectors.md`
 
 ### Included Subtasks
-- [ ] T013 [P] Implement `network_inventory/collectors/cisco_ios.py` — IOS + IOS-XE: `show inventory` → serial, `show version` → firmware; register `cisco_ios` and `cisco_xe`
-- [ ] T014 [P] Implement `network_inventory/collectors/cisco_nxos.py` — NX-OS: `show inventory` → serialnum field, `show version` → `NXOS:` version line; register `cisco_nxos`
+- [x] T013 [P] Implement `network_inventory/collectors/cisco_ios.py` — IOS + IOS-XE: `show inventory` → serial, `show version` → firmware; register `cisco_ios` and `cisco_xe`
+- [x] T014 [P] Implement `network_inventory/collectors/cisco_nxos.py` — NX-OS: `show inventory` → serialnum field, `show version` → `NXOS:` version line; register `cisco_nxos`
 
 ### Implementation Notes
 - Cisco IOS/IOS-XE serial: regex `r'SN:\s*(\S+)'` on `show inventory` output (first match for chassis).
