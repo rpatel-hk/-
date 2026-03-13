@@ -14,7 +14,7 @@ subtasks:
 - T018
 phase: Phase 1 - Collectors
 assignee: ''
-agent: ''
+agent: "claude-sonnet-4-6"
 shell_pid: "59427"
 review_status: ''
 reviewed_by: ''
@@ -456,3 +456,4 @@ class RuckusWirelessCollector(BaseCollector):
 > **CRITICAL**: Append new entries at the END. Never prepend.
 
 - 2026-03-12T10:45:33Z – system – lane=planned – Prompt created.
+- 2026-03-13T01:19:58Z – claude-sonnet-4-6 – shell_pid=59427 – lane=doing – Assigned agent via workflow command
