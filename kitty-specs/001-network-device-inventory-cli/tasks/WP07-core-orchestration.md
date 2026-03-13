@@ -15,7 +15,7 @@ subtasks:
 - T023
 phase: Phase 2 - Integration
 assignee: ''
-agent: ''
+agent: "claude-sonnet-4-6"
 shell_pid: "78396"
 review_status: ''
 reviewed_by: ''
@@ -356,3 +356,4 @@ if __name__ == "__main__":
 > **CRITICAL**: Append new entries at the END. Never prepend.
 
 - 2026-03-12T10:45:33Z – system – lane=planned – Prompt created.
+- 2026-03-13T16:00:20Z – claude-sonnet-4-6 – shell_pid=78396 – lane=doing – Assigned agent via workflow command
