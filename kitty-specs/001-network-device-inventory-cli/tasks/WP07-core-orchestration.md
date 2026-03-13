@@ -1,9 +1,12 @@
 ---
 work_package_id: WP07
 title: Core Orchestration
-lane: planned
+lane: "doing"
 dependencies:
 - WP02
+base_branch: 001-network-device-inventory-cli-WP02
+base_commit: 3c75b0ab65d25f650d216b22a2fed18b9a8f9efe
+created_at: '2026-03-13T16:00:19.344185+00:00'
 subtasks:
 - T019
 - T020
@@ -13,7 +16,7 @@ subtasks:
 phase: Phase 2 - Integration
 assignee: ''
 agent: ''
-shell_pid: ''
+shell_pid: "78396"
 review_status: ''
 reviewed_by: ''
 history:
