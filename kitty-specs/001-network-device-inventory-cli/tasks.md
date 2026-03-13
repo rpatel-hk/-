@@ -83,9 +83,9 @@ Each work package is independently deliverable and testable.
 **Prompt**: `tasks/WP03-database-layer.md`
 
 ### Included Subtasks
-- [ ] T008 Implement `network_inventory/db/connection.py` — MariaDB connection pool + fail-fast startup check
-- [ ] T009 Implement `network_inventory/db/queries.py` — `load_enabled_devices()` + `upsert_inventory_record()`
-- [ ] T010 Implement `network_inventory/db/__init__.py` — package init + public exports
+- [x] T008 Implement `network_inventory/db/connection.py` — MariaDB connection pool + fail-fast startup check
+- [x] T009 Implement `network_inventory/db/queries.py` — `load_enabled_devices()` + `upsert_inventory_record()`
+- [x] T010 Implement `network_inventory/db/__init__.py` — package init + public exports
 
 ### Implementation Notes
 - `connection.py`: create pool via `mariadb.connect()` at startup; any `mariadb.Error` at pool creation → log error, `sys.exit(1)` (FR-013).
