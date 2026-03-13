@@ -213,11 +213,11 @@ Each work package is independently deliverable and testable.
 **Prompt**: `tasks/WP07-core-orchestration.md`
 
 ### Included Subtasks
-- [ ] T019 Startup validation — config load, key file existence/readability check, DB connection test; exit(1) on any failure
-- [ ] T020 Device loading — call `load_enabled_devices()`; handle zero-devices case with clean exit message
-- [ ] T021 Collector dispatch — for each device, look up collector via `get_collector()`; skip unknown types with warning; submit `device.collect()` to `ThreadPoolExecutor`
-- [ ] T022 Result collection + DB upsert — iterate `as_completed()`, catch per-future exceptions, upsert each `CollectionResult` immediately; accumulate counts
-- [ ] T023 Completion summary — print total polled / success / failed / timeout to stdout; exit 0
+- [x] T019 Startup validation — config load, key file existence/readability check, DB connection test; exit(1) on any failure
+- [x] T020 Device loading — call `load_enabled_devices()`; handle zero-devices case with clean exit message
+- [x] T021 Collector dispatch — for each device, look up collector via `get_collector()`; skip unknown types with warning; submit `device.collect()` to `ThreadPoolExecutor`
+- [x] T022 Result collection + DB upsert — iterate `as_completed()`, catch per-future exceptions, upsert each `CollectionResult` immediately; accumulate counts
+- [x] T023 Completion summary — print total polled / success / failed / timeout to stdout; exit 0
 
 ### Implementation Notes
 - Startup order: (1) load Settings, (2) verify `ENCRYPTION_KEY_FILE` exists and is readable, (3) establish DB pool (exits on failure per FR-013), (4) load enabled devices, (5) check for zero devices.
