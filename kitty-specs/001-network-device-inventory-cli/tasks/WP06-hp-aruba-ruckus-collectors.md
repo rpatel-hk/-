@@ -1,9 +1,12 @@
 ---
 work_package_id: WP06
 title: HP, Aruba & Ruckus Collectors
-lane: planned
+lane: "doing"
 dependencies:
 - WP04
+base_branch: 001-network-device-inventory-cli-WP04
+base_commit: 17318a1ff61212e6950b85e0e3b1a947655fe75a
+created_at: '2026-03-13T01:19:58.030132+00:00'
 subtasks:
 - T015
 - T016
@@ -12,7 +15,7 @@ subtasks:
 phase: Phase 1 - Collectors
 assignee: ''
 agent: ''
-shell_pid: ''
+shell_pid: "59427"
 review_status: ''
 reviewed_by: ''
 history:
