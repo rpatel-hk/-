@@ -180,10 +180,10 @@ Each work package is independently deliverable and testable.
 **Prompt**: `tasks/WP06-hp-aruba-ruckus-collectors.md`
 
 ### Included Subtasks
-- [ ] T015 [P] Implement `network_inventory/collectors/hp_procurve.py` — `show system information` → serial + firmware; register `hp_procurve`
-- [ ] T016 [P] Implement `network_inventory/collectors/aruba.py` — `show system information` → serial + firmware; register `aruba_procurve`
-- [ ] T017 [P] Implement `network_inventory/collectors/ruckus_icx.py` — `show version` → serial + firmware; register `ruckus_fastiron`
-- [ ] T018 Implement `network_inventory/collectors/ruckus_wireless.py` — `show version` with `generic_termserver` / `linux` fallback + caveat note; register `ruckus_wireless`
+- [x] T015 [P] Implement `network_inventory/collectors/hp_procurve.py` — `show system information` → serial + firmware; register `hp_procurve`
+- [x] T016 [P] Implement `network_inventory/collectors/aruba.py` — `show system information` → serial + firmware; register `aruba_procurve`
+- [x] T017 [P] Implement `network_inventory/collectors/ruckus_icx.py` — `show version` → serial + firmware; register `ruckus_fastiron`
+- [x] T018 Implement `network_inventory/collectors/ruckus_wireless.py` — `show version` with `generic_termserver` / `linux` fallback + caveat note; register `ruckus_wireless`
 
 ### Implementation Notes
 - HP ProCurve serial: `r'Serial Number\s*:\s*(\S+)'`; firmware: `r'Software revision\s*:\s*(\S+)'` on `show system information`.
